@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-
-	cache "github.com/dmytrodemianchuk/cache/cache"
 )
 
 func main() {

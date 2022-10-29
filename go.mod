@@ -1,3 +1,3 @@
-module github.com/dmytrodemianchuk/cache/cache
+module github.com/dmytrodemianchuk/cache
 
 go 1.19
