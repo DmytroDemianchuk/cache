@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/skorolevskiy/go-beginer/cache"
+	cache "github.com/dmytrodemianchuk/cache"
 )
 
 func main() {
