@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/skorolevskiy/go-beginer/cache"
+)
 
 func main() {
 	cache := cache.New()
