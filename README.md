@@ -1,7 +1,7 @@
 # cache
 
 ```golang
-go get github.com/dmytrodemianchuk/cache/cache
+go get github.com/dmytrodemianchuk/cache
 ```
 
 ```golang
