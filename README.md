@@ -1,4 +1,4 @@
-# cache
+# Example
 
 ```golang
 go get github.com/dmytrodemianchuk/cache
