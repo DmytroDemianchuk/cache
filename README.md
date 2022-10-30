@@ -1,4 +1,5 @@
-# Example
+Example
+=========
 
 ```golang
 go get github.com/dmytrodemianchuk/cache

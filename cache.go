@@ -30,7 +30,7 @@ func (c *Cache) Set(key string, value interface{}) {
 	}
 }
 
-// Get item from cache storage
+// Get item from cache
 func (c *Cache) Get(key string) (interface{}, error) {
 	item, exists := c.items[key]
 	if !exists {
@@ -39,7 +39,7 @@ func (c *Cache) Get(key string) (interface{}, error) {
 	return item.Value, nil
 }
 
-// Delete item from cache storage
+// Delete item from cache
 func (c *Cache) Delete(key string) error {
 	if _, found := c.items[key]; !found {
 		return errors.New("key not found")
